@@ -1,0 +1,57 @@
+/* stili generali */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+
+/* stili header */
+#search{
+    padding: 10px 0;
+    /* DEBUG */
+    background-color: aqua;
+}
+
+.container.header{
+    padding: 5px 0;
+    /* DEBUG */
+    background-color: #dda71f;
+    border: black 1px dashed;
+}
+
+#main-nav{
+    flex-basis: 55%;
+     /* DEBUG */
+     text-align: center;
+     border-right: black 1px dashed;
+     border-left: black 1px dashed;
+}
+
+.logo{
+    flex-basis: 20%;
+}
+
+.login{
+    text-align: right;
+}
+
+#main-info{
+    display: flex;
+    /* DEBUG */
+    background-color: rgb(2, 2, 171);
+    min-height: 250px;
+}
+
+.info{
+    flex-basis: 45%;
+    margin: auto;
+    /* DEBUG */
+    background-color: rgb(238, 50, 169);
+    min-height: 200px;
+}
