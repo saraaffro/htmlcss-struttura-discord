@@ -9,11 +9,12 @@
     width: 60%;
     margin: auto;
     display: flex;
+     /* DEBUG */
+    border: black 1px dashed;
 }
 
 /* stili header */
 #search{
-    padding: 10px 0;
     /* DEBUG */
     background-color: aqua;
 }
@@ -22,7 +23,6 @@
     padding: 5px 0;
     /* DEBUG */
     background-color: #dda71f;
-    border: black 1px dashed;
 }
 
 #main-nav{
@@ -52,6 +52,56 @@
     flex-basis: 45%;
     margin: auto;
     /* DEBUG */
+     border: black 1px dashed;
     background-color: rgb(238, 50, 169);
     min-height: 200px;
+}
+
+/* stili main */
+.main{
+    display: flex;
+    /* DEBUG */
+    min-height: 350px;
+}
+
+.main.white{
+    /* DEBUG */
+    background-color: white;
+}
+
+.main.grey{
+    /* DEBUG */
+    background-color: lightgray;
+}
+
+.container.item{
+    /* DEBUG */
+    min-height: 300px;
+}
+
+.image{
+    flex-basis: 60%;
+    /* DEBUG */
+    background-color: lightblue;
+}
+
+.text{
+    flex-basis: 40%;
+     /* DEBUG */
+     background-color: pink;
+     border-left: black 1px dashed;
+}
+
+.container.item.reverse{
+    flex-direction: row-reverse;
+}
+
+.main.grey.large{
+    min-height: 600px;
+}
+
+.container.large{
+    /* DEBUG */
+    background-color: green;
+    min-height: 550px;
 }
