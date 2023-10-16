@@ -5,8 +5,13 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .container{
-    width: 60%;
+    width: 70%;
     margin: auto;
     display: flex;
      /* DEBUG */
@@ -15,6 +20,7 @@
 
 /* stili header */
 #search{
+    padding: 10px 0;
     /* DEBUG */
     background-color: aqua;
 }
@@ -33,7 +39,7 @@
      border-left: black 1px dashed;
 }
 
-.logo{
+.logo.first{
     flex-basis: 20%;
 }
 
@@ -49,7 +55,7 @@
 }
 
 .info{
-    flex-basis: 45%;
+    flex-basis: 50%;
     margin: auto;
     /* DEBUG */
      border: black 1px dashed;
@@ -104,4 +110,59 @@
     /* DEBUG */
     background-color: green;
     min-height: 550px;
+}
+
+/* stili footer */
+.main.footer{
+    display: flex;
+     /* DEBUG */
+    background-color: rgb(31, 31, 46);
+}
+
+.container.footer{
+     /* DEBUG */
+     min-height: 300px;
+}
+
+.col{
+    flex-basis: 15%;
+    /* DEBUG */
+    background-color: rgb(134, 194, 174);
+    border-right: white 1px dashed;
+}
+
+.col.first{
+    flex-basis: 40%;
+    /* DEBUG */
+    background-color: salmon;
+    border-right: black 1px dashed;
+}
+
+.main.footer.last{
+    display: flex;
+    border-top: solid 1px #7289da;
+    padding: 10px 0;
+    /* DEBUG */
+    min-height: auto;
+    background-color: rgb(31, 31, 46);
+}
+
+.container.last{
+    padding: 5px 3px;
+    justify-content: space-between;
+     /* DEBUG */
+    background-color: aquamarine;
+}
+
+.logo.last{
+
+    /* DEBUG */
+    background-color: salmon;
+    border: black 1px dashed;
+}
+
+.download.signup{
+    /* DEBUG */
+    background-color: salmon;
+    border: black 1px dashed;
 }
